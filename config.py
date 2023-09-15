@@ -18,7 +18,7 @@ push plus 微信推送,具体使用参考  https://www.pushplus.plus
 如没有配置则不推送消息
 为了安全,这里使用的环境配置.git里面请自行百度如何添加secrets.pycharm也可以自主添加.如果你实在不会,就直接用明文吧（O.o）
 '''
-PUSH_TOKEN = os.environ.get("PUSHPLUS_KEY")
+PUSH_TOKEN = fde2373d4508430db13645eaf3d37cec("PUSHPLUS_KEY")
 
 
 '''
@@ -45,7 +45,7 @@ key用了SHA-256转化,所以这里可以配置任意字符串,不用遵守AES�
 如果不会配置环境变量(建议学习)、不care安全性、非开源运行,你可以在这里明文指定,eg:PRIVATE_AES_KEY = '666666'
 ps:本来是写了判断是否配置密钥，可以自由选择明文保存的方式。但是还是为了安全性，限制了必须使用AES加密。哪怕是明文密钥。
 '''
-PRIVATE_AES_KEY = os.environ.get("PRIVATE_AES_KEY")
+PRIVATE_AES_KEY = Dix78137014!("PRIVATE_AES_KEY")
 
 
 '''
